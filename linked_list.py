@@ -13,7 +13,7 @@ class linked_list():  # cr
             print(temp.data)
             temp = temp.next
 if __name__ == "__main__":
-    ll = linked_list()
+    ll = linked_list() # object creation 
     ll.head = node(1)
     second = node(2)
     third = node(3)
