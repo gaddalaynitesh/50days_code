@@ -15,3 +15,6 @@ for x in my_dict:
 
 for x,y in my_dict.items():
     print(x,y)
+my_dict['daves'] = '004'
+my_dict['chris'] = '005'
+my_dict.pop('ava')
